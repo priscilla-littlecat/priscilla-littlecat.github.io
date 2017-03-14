@@ -1,0 +1,21 @@
+# Site settings
+title: My Journey as an Older Student
+header-img: img/home-bg.png
+email: tchavez1964@hotmail.com
+copyright_name: priscilla-littlecat
+description: > # this means to ignore newlines until "baseurl:"
+  Why I Am Pursuing my Passion Now
+baseurl: "" # the subpath of your site, e.g. /blog
+twitter_username: 2005_priscilla
+github_username:  priscilla-littlecat
+learn_profile: priscilla-littlecat
+email_username: tchavez1964@hotmail.com
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+paginate: 5
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+
+gems: [jekyll-paginate, jekyll-feed]
